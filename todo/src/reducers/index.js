@@ -3,24 +3,7 @@ import { ADD_TO_LIST } from '../actions';
 
 
 const initialState = {
-    todolist: [
-        {
-            item: 'Read for a hour',
-            completed: false
-        },
-        {
-            item: 'Work on classwork',
-            completed: false
-        },
-        {
-            item: 'Laundry',
-            completed: false
-        },
-        {
-            item: 'Clean Room',
-            completed: false
-        }
-    ]
+    todolist: []
 }
 
 export default (state = initialState, action) => {
